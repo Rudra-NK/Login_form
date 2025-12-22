@@ -27,6 +27,15 @@
         <p class="text">Or Having an account? <a href="log.html">Login</a> </p>
       </form>
     </div>
+    <script>
+      const form = document.querySelector('form');
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    window.location.href = "dashboard.html"; 
+});
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
